@@ -1,0 +1,9 @@
+<div>
+
+  <product-row 
+    *ngFor="let product of productList"
+    [product] = "product"
+    (click) = "clickedProduct(product)"
+  ></product-row>
+
+</div>

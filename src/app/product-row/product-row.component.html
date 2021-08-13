@@ -1,0 +1,29 @@
+
+<div class="d-sm-flex mx-auto my-2 p-1 w-75 product">
+  <div class="d-flex mx-1">
+    <img class="mx-auto" src="{{ product.imageUrl }}" alt="" width="200px" height="150px"> 
+  </div>
+
+  <div class="d-flex flex-column w-100 px-1 align-items-center align-items-md-start">
+    <div class="product-header">
+      <p class="product-name text-center">{{ product.name }}</p>
+    </div>
+  
+    <div class="product-title">
+      <p class="product-meta">SKU #{{ product.sku }}</p>      
+    </div>
+
+    <div class="product-breadcrumbs">
+      <ul class="breadcrumbs_ul">
+        <li class="breadcrumbs_li" *ngFor="let department of product.department; let i = index">
+          <a class="breadcrumbs_li_a" href="">{{ department }}</a>        
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="product-price">
+    <p class="product-price-value text-center">{{ product.price }}</p>
+  </div>
+</div>
+

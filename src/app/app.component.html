@@ -1,0 +1,9 @@
+<div class="inventory-app">  
+  <div class="d-block text-center mb-5">
+    <h1 class="my-3 text-uppercase">Current Inventory</h1>
+  </div>
+  <products-list 
+    [productList] = "products"
+    (onProductSelected) = "productWasSelected($event)"
+  ></products-list>  
+</div>
