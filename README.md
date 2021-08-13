@@ -10,6 +10,8 @@ Fortunately, I think I got the idea on the use them.
 
 Some Bootstrap CSS and custom SCSS are employed for the styling.
 
+https://proj-02-inventory-sys.netlify.app/
+
 
 
 # NgBookInventoryApp
