@@ -1,14 +1,14 @@
-Project 02 of the Ng-Book
+**A Simple Inventory App**
 -------------------------
-
-A Simple Inventory App
 
 This project explores the use of the @Input and @Output decorators.
 
 The codes used in the book are still a heavy reference when I created this project.
 
 As I find use of components and the @Input directive now easier to understand, my focus here shifted to how to understand and use @Output decorator and EventEmitter.
-Fortunately, I think I got the idea of the use them.
+Fortunately, I think I got the idea on the use them.
+
+Some Bootstrap CSS and custom SCSS are employed for the styling.
 
 
 
